@@ -1,0 +1,38 @@
+{
+  "name": "meteor-tuts",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "lint": "eslint . --ext .js,.jsx --fix"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.36",
+    "bcrypt": "^1.0.3",
+    "history": "^4.7.2",
+    "lodash": "^4.17.5",
+    "meteor-node-stubs": "^0.3.2",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "simpl-schema": "^1.4.2",
+    "semantic-ui-css": "^2.3.1",
+    "uniforms": "^1.23.0",
+    "uniforms-unstyled": "^1.23.0",
+    "uniforms-semantic": "^1.24.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-meteor": "^4.2.0",
+    "eslint-plugin-react": "^7.7.0",
+    "pre-commit": "^1.2.2"
+  }
+}
